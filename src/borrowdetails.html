@@ -1,0 +1,262 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Borrow</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link href="https://fonts.googleapis.com/css?family=Droid+Sans" rel="stylesheet">
+    <link rel="stylesheet" href="css/main.css">
+    <link rel="stylesheet" href="css/borrowdetails.css">
+</head>
+<body>
+<aside class="side-nav" id="show-side-navigation1">
+    <i class="fa fa-bars close-aside hidden-sm hidden-md hidden-lg" data-close="show-side-navigation1"></i>
+
+    <div class="search">
+        <input type="text" placeholder="Type here"><i class="fa fa-search"></i>
+    </div>
+    <ul class="categories">
+        <li><i class="fa fa-home fa-fw" aria-hidden="true"></i><a href="#">Registration</a>
+            <ul class="side-nav-dropdown">
+                <li><a href="#">New Registration</a></li>
+                <li><a href="#">ipsum dolor</a></li>
+                <li><a href="#">dolor ipsum</a></li>
+                <li><a href="#">amet consectetur</a></li>
+                <li><a href="#">ipsum dolor sit</a></li>
+            </ul>
+        </li>
+        <li><i class="fa fa-support fa-fw"></i><a href="#">Members Details</a>
+            <ul class="side-nav-dropdown">
+                <li><a href="#">Lorem ipsum</a></li>
+                <li><a href="#">ipsum dolor</a></li>
+                <li><a href="#">dolor ipsum</a></li>
+                <li><a href="#">amet consectetur</a></li>
+                <li><a href="#">ipsum dolor sit</a></li>
+            </ul>
+        </li>
+        <li><i class="fa fa-envelope fa-fw"></i><a href="#">Book Details</a>
+            <ul class="side-nav-dropdown">
+                <li><a href="#">Lorem ipsum</a></li>
+                <li><a href="#">ipsum dolor</a></li>
+                <li><a href="#">dolor ipsum</a></li>
+                <li><a href="#">amet consectetur</a></li>
+                <li><a href="#">ipsum dolor sit</a></li>
+            </ul>
+        </li>
+        <li><i class="fa fa-users fa-fw"></i><a href="#">Borrow Details</a>
+            <ul class="side-nav-dropdown">
+                <li><a href="#">Lorem ipsum</a></li>
+                <li><a href="#">ipsum dolor</a></li>
+                <li><a href="#">dolor ipsum</a></li>
+                <li><a href="#">amet consectetur</a></li>
+                <li><a href="#">ipsum dolor sit</a></li>
+            </ul>
+        </li>
+        <li><i class="fa fa-bolt fa-fw"></i><a href="#">Return Details</a>
+            <ul class="side-nav-dropdown">
+                <li><a href="#">Lorem ipsum</a></li>
+                <li><a href="#">ipsum dolor</a></li>
+                <li><a href="#">dolor ipsum</a></li>
+                <li><a href="#">amet consectetur</a></li>
+                <li><a href="#">ipsum dolor sit</a></li>
+            </ul>
+        </li>
+
+        <li><i class="fa fa-envelope-open-o fa-fw"></i><a href="#"> Author</a></li>
+        <li><i class="fa fa-wrench fa-fw"></i><a href="#"> Publisher </a>
+            <ul class="side-nav-dropdown">
+                <li><a href="#">Lorem ipsum</a></li>
+                <li><a href="#">ipsum dolor</a></li>
+                <li><a href="#">dolor ipsum</a></li>
+                <li><a href="#">amet consectetur</a></li>
+                <li><a href="#">ipsum dolor sit</a></li>
+            </ul>
+        </li>
+        <li><i class="fa fa-laptop fa-fw"></i><a href="#"> Settings </a></li>
+        <li><i class="fa fa-comments-o fa-fw"></i><a href="#"> log out</a></li>
+        <li><i class="fa fa-home fa-fw"></i><a href="dashboard.php">Home</a></li>
+    </ul>
+</aside>
+<section id="contents">
+    <div class="container-fluid">
+        <div class="row">
+            <div id="grid1" class="card mb-6 col-12 col-sm-6 col-md-12 col-lg-6 col-xl-6" style="max-width: 540px;">
+                <div class="row no-gutters">
+                    <div class="login-wrap">
+                        <div class="login-html">
+                            <input id="tab-1" type="radio" name="tab" class="sign-in" checked><label for="tab-1" class="tab">-Borrow Details-</label>
+                            <input id="tab-2" type="radio" name="tab" class="sign-up"><label for=" " class="tab"></label>
+                            <form id="borrowform" class="login-form">
+                                <div class="sign-in-htm">
+                                    <div class="group">
+                                        <label for="user" class="label">Book ID</label>
+                                        <input id="user" type="text" class="input" name="bookid">
+                                    </div>
+                                    <div class="group">
+                                        <label for="user" class="label">Member ID</label>
+                                        <input id="user" type="text" class="input" name="memberid">
+                                    </div>
+                                    <div class="group">
+                                        <label for="user" class="label">Borrow Date </label>
+                                        <input id="user" type="text" class="input" name="borrowdate">
+                                    </div>
+                                    <div class="group">
+                                        <label for="user" class="label">Return Date</label>
+                                        <input id="user" type="text" class="input" name="returndate">
+                                    </div>
+
+
+
+                                    <div class="group">
+                                        <button id="btnborrow" type="button" class="button" value="add" name="option">
+                                            Borrow Book
+                                        </button>
+                                    </div>
+                                    <div class="hr"></div>
+
+                                </div>
+
+                            </form>
+                        </div>
+                    </div>
+
+                </div>
+            </div>
+            <div id="grid2" class="card mb-6 col-12 col-sm-6 col-md-12 col-lg-6 col-xl-6" style="max-width: 540px;">
+                <div class="row no-gutters">
+                    <div class="login-wrap">
+                        <div class="login-html">
+                            <table class="table table-striped table-light">
+                                <thead>
+                                <tr>
+                                    <th scope="col">Book ID</th>
+                                    <th scope="col">Registration ID</th>
+                                    <th scope="col">Borrow Date</th>
+                                    <th scope="col">Return Date</th>
+
+                                </tr>
+                                </thead>
+                                <tbody>
+                                <tr>
+                                    <th scope="row">1</th>
+                                    <td>Mark</td>
+                                    <td>Otto</td>
+                                    <td>@mdo</td>
+
+                                </tr>
+                                <tr>
+                                    <th scope="row">2</th>
+                                    <td>Jacob</td>
+                                    <td>Thornton</td>
+                                    <td>@fat</td>
+
+                                </tr>
+                                <tr>
+                                    <th scope="row">3</th>
+                                    <td>Larry</td>
+                                    <td>the Bird</td>
+                                    <td>@twitter</td>
+
+                                </tr>
+                                <tr>
+                                    <th scope="row">3</th>
+                                    <td>Larry</td>
+                                    <td>the Bird</td>
+                                    <td>@twitter</td>
+
+                                </tr>
+                                <tr>
+                                    <th scope="row">3</th>
+                                    <td>Larry</td>
+                                    <td>the Bird</td>
+                                    <td>@twitter</td>
+
+                                </tr>
+                                <tr>
+                                    <th scope="row">3</th>
+                                    <td>Larry</td>
+                                    <td>the Bird</td>
+                                    <td>@twitter</td>
+
+                                </tr>
+                                <tr>
+                                    <th scope="row">3</th>
+                                    <td>Larry</td>
+                                    <td>the Bird</td>
+                                    <td>@twitter</td>
+
+                                </tr>
+                                <tr>
+                                    <th scope="row">3</th>
+                                    <td>Larry</td>
+                                    <td>the Bird</td>
+                                    <td>@twitter</td>
+
+                                </tr>
+                                <tr>
+                                    <th scope="row">3</th>
+                                    <td>Larry</td>
+                                    <td>the Bird</td>
+                                    <td>@twitter</td>
+
+
+                                </tr>
+                                <tr>
+                                    <th scope="row">3</th>
+                                    <td>Larry</td>
+                                    <td>the Bird</td>
+                                    <td>@twitter</td>
+
+                                </tr>
+                                <tr>
+                                    <th scope="row">3</th>
+                                    <td>Larry</td>
+                                    <td>the Bird</td>
+                                    <td>@twitter</td>
+
+                                </tr>
+                                <tr>
+                                    <th scope="row">3</th>
+                                    <td>Larry</td>
+                                    <td>the Bird</td>
+                                    <td>@twitter</td>
+
+                                </tr>
+                                <tr>
+                                    <th scope="row">3</th>
+                                    <td>Larry</td>
+                                    <td>the Bird</td>
+                                    <td>@twitter</td>
+
+                                </tr>
+                                <tr>
+                                    <th scope="row">3</th>
+                                    <td>Larry</td>
+                                    <td>the Bird</td>
+                                    <td>@twitter</td>
+
+                                </tr>
+                                </tbody>
+                            </table>
+
+                        </div>
+                    </div>
+
+                </div>
+            </div>
+        </div>
+    </div>
+
+</section>
+
+
+
+<script src='http://code.jquery.com/jquery-latest.js'></script>
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/Chart.js/2.6.0/Chart.bundle.js"></script>
+<script src='js/main.js'></script>
+<script src="js/borrowdetails.js"></script>
+</body>
+</html>

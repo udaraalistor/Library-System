@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="PublishConfigData" serverName="Libary-System">
+    <serverData>
+      <paths name="Libary-System">
+        <serverdata>
+          <mappings>
+            <mapping deploy="Libary-System" local="$PROJECT_DIR$" web="/Libary-System" />
+          </mappings>
+        </serverdata>
+      </paths>
+    </serverData>
+  </component>
+</project>
